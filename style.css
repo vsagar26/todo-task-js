@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+}
+
+.container{
+    background-color: #7820c9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.input-text{
+    height: 30px;
+    width: 300px;
+    box-shadow: 2px 10px 10px 5px #0a0a0a2c;
+}
+
+#add-btn{
+    padding: 10px 20px;
+    background-color: #71da51;
+    color: #fff;
+    border-width: 0px;
+    box-shadow: 2px 10px 10px 5px #0a0a0a2c;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#added-task{
+    margin-top: 30px;
+    color: #fff;
+    
+}
+
+.delete i{
+    background-color: #fff;
+}
+
